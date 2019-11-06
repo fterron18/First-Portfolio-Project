@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylee.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Css Font-->
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <style>
+    #contatti {
+      background-color: white;
+      letter-spacing: 2px;
+    }
+
+    #contatti a {
+      color: #000;
+      text-decoration: none;
+    }
+
+
+    @media (max-width: 575.98px) {
+
+      #contatti {
+        padding-bottom: 800px;
+      }
+
+      #contatti .maps iframe {
+        width: 100%;
+        height: 450px;
+      }
+    }
+
+
+    @media (min-width: 576px) {
+
+      #contatti {
+        padding-bottom: 800px;
+      }
+
+      #contatti .maps iframe {
+        width: 100%;
+        height: 450px;
+      }
+    }
+
+    @media (min-width: 768px) {
+
+      #contatti {
+        padding-bottom: 350px;
+      }
+
+      #contatti .maps iframe {
+        width: 100%;
+        height: 850px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      #contatti {
+        padding-bottom: 200px;
+      }
+
+      #contatti .maps iframe {
+        width: 100%;
+        height: 700px;
+      }
+    }
+
+
+    #author a {
+      color: #000;
+      text-decoration: none;
+
+    }
+
+    .text-uppercase{
+      color: black;
+    }
+    .text-black{
+      color: black;
+    }
+    #foot{
+      background-color: rgba(33,27,23,.6)!important;
+    }
+
+    .siteby{
+      font-family: "futura-pt";
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,.9);
+}
+    
+  </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><i class="fab fa-angrycreative"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+  <div class="row" id="contatti">
+    <div class="container mt-5">
+
+      <div class="row" style="height:550px;">
+        <div class="col-md-6 maps">
+          <img src="images/gown.jpeg" width="90%" frameborder="0" style="border:0" allowfullscreen></img>
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-uppercase mt-3">CONTACT ME</h2>
+          <form action="">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <input type="text" class="form-control mt-2" placeholder="First Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <input type="text" class="form-control mt-2" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <input type="email" class="form-control mt-2" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <input type="number" class="form-control mt-2" placeholder="Phone Number" required>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"
+                    required></textarea>
+                </div>
+              </div>
+              <div class="col-12">
+              </div>
+              <div class="col-12">
+                <button class="btn btn-light" type="submit">Send</button>
+              </div>
+            </div>
+          </form>
+          <div class="text-black">
+
+            <i class="fas fa-phone mt-3"></i> <a href="tel:+">412-960-0133</a><br>
+            <i class="fa fa-envelope mt-3"></i> <a href="">terronjackson18@gmail.com</a><br>
+            <div class="my-4">
+              <a href=""><i class="fab fa-facebook fa-3x pr-4"></i></a>
+              <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<footer>
+    <div id="site-info">
+  <div class="row text-center bg-success text-white" id="foot">
+    <div class="col-12 mt-4 h3">
+      <span class="siteby">Site Done By Terron Jackson</span>
+    </div>
+    <div class="col-12 my-2">
+      <a href="#" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+    </div>
+  </div>
+  </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
